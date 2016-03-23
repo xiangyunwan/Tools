@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.zhangzhenzhong1.tools.widget.AutoScaleTextView
+        android:id="@+id/tv_autoscale_01"
+        android:layout_width="match_parent"
+        android:layout_height="22.5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|left"
+        android:maxWidth="270dp"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp" />
+
+    <com.zhangzhenzhong1.tools.widget.AutoScaleTextView
+        android:id="@+id/tv_autoscale_02"
+        android:layout_width="match_parent"
+        android:layout_height="22.5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|left"
+        android:maxWidth="270dp"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp" />
+</LinearLayout>

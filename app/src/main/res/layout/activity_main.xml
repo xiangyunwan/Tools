@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.zhangzhenzhong1.tools.context.MainActivity">
+    <TextView
+        android:id="@+id/tv_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:background="#359df5"
+        android:text="ProgressBar"/>
+    <TextView
+        android:id="@+id/tv_wordwrapview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_progressbar"
+        android:textSize="18sp"
+        android:background="#359df5"
+        android:layout_margin="10dp"
+        android:text="wordwrapview"/>
+    <TextView
+        android:id="@+id/tv_autoscale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_wordwrapview"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:background="#359df5"
+        android:text="AutoScaleText"/>
+
+    <LinearLayout
+        android:id="@+id/ll_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="gone"
+        android:orientation="vertical">
+    </LinearLayout>
+</RelativeLayout>
