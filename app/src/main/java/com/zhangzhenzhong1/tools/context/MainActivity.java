@@ -68,11 +68,13 @@ public class MainActivity extends AppCompatActivity implements AutoScaleTextFrag
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+//        super.onBackPressed();
 //        if(mBackHandedFragment == null || !mBackHandedFragment.onBackPressed()){
             if(getSupportFragmentManager().getBackStackEntryCount() == 0){
                 super.onBackPressed();
             }else{
+                LinearLayout ll_fragment=(LinearLayout)findViewById(R.id.ll_fragment);
+                ll_fragment.setVisibility(View.GONE);
                 getSupportFragmentManager().popBackStack();
             }
 //        }

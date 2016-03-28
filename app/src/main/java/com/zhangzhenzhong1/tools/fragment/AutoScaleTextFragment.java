@@ -12,6 +12,8 @@ import com.zhangzhenzhong1.tools.R;
 import com.zhangzhenzhong1.tools.widget.AutoScaleTextView;
 
 /**
+ *
+ * 根据行宽和字体多少自动放大缩小文本框
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
  * {@link AutoScaleTextFragment.OnFragmentInteractionListener} interface
@@ -45,7 +47,7 @@ public class AutoScaleTextFragment extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment AutoScaleTextFragment.
      */
-    // TODO: Rename and change types and number of parameters
+    // TODO: Rename and change types and number of parameters---数据共享
     public static AutoScaleTextFragment newInstance(String param1, String param2) {
         AutoScaleTextFragment fragment = new AutoScaleTextFragment();
         Bundle args = new Bundle();
@@ -77,16 +79,12 @@ public class AutoScaleTextFragment extends Fragment {
 
 
     private void initView(View rootView) {
-        AutoScaleTextView tv_autoscale_01=(AutoScaleTextView)rootView.findViewById(R.id.tv_autoscale_01);
-        AutoScaleTextView tv_autoscale_02=(AutoScaleTextView)rootView.findViewById(R.id.tv_autoscale_02);
-        String str="update argument";
-        for (int i=0;i<10;i++){
-            str=str+i;
-        }
-        String str2="update argument";
-        for (int i=0;i<5;i++){
-            str=str+i;
-        }
+        AutoScaleTextView tv_autoscale_01 = (AutoScaleTextView) rootView.findViewById(R.id.tv_autoscale_01);
+        AutoScaleTextView tv_autoscale_02 = (AutoScaleTextView) rootView.findViewById(R.id.tv_autoscale_02);
+        String str = "update argument";
+        str = str + str;
+        String str2 = "update2 argument2";
+        str2 = str2 + str2 + str2;
         tv_autoscale_01.setText(str);
         tv_autoscale_02.setText(str2);
     }

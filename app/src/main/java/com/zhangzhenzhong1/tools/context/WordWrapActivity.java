@@ -23,12 +23,18 @@ public class WordWrapActivity extends Activity{
     private String[] biaoQianStrs = new String[]{"哲学系", "新疆维吾尔族自治区", "新闻学", "心理学",
             "犯罪心理学", "明明白白", "西方文学史", "计算机", "掌声", "心太软", "生命",
             "程序开发"};
+
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         mContext=this;
-        super.onCreate(savedInstanceState, persistentState);
         setContentView(R.layout.activity_wordwrapview);
         intiView();
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
+
     }
     private void intiView(){
         WordWrapView wwv_auto=(WordWrapView)findViewById(R.id.wwv_auto);
