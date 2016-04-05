@@ -84,6 +84,10 @@
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_jd_listview.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\src\\main\\res\\layout\\header_jd_listview.xml"
+    },
+    {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },

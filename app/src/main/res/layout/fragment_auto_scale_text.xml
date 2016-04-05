@@ -13,7 +13,7 @@
         android:singleLine="true"
         android:layout_marginTop="40dp"
         android:textSize="20sp" />
-
+    
     <com.zhangzhenzhong1.tools.widget.AutoScaleTextView
         android:id="@+id/tv_autoscale_02"
         android:layout_width="match_parent"
