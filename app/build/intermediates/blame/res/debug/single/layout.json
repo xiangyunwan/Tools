@@ -36,20 +36,20 @@
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_media.xml"
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -68,12 +68,12 @@
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -88,16 +88,20 @@
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\src\\main\\res\\layout\\header_jd_listview.xml"
     },
     {
-        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jd_listview_footer.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\src\\main\\res\\layout\\jd_listview_footer.xml"
     },
     {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -108,12 +112,12 @@
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_progressbar.xml",
@@ -144,10 +148,6 @@
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_media_cancel_action.xml"
     },
@@ -156,12 +156,24 @@
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_gallery.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tune_wheel.xml",
+        "source": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\src\\main\\res\\layout\\fragment_tune_wheel.xml"
     },
     {
         "merged": "D:\\android_github\\AndroidToolsUtils\\Tools\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",

@@ -13,7 +13,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.jd.jrapp.R;
+import com.zhangzhenzhong1.tools.R;
+
 
 public class JDListViewFooter extends LinearLayout {
 	public final static int STATE_NORMAL = 0;

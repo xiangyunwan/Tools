@@ -35,7 +35,25 @@
         android:layout_margin="10dp"
         android:background="#359df5"
         android:text="AutoScaleText"/>
-
+    <TextView
+        android:id="@+id/tv_middlegallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_progressbar"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:background="#359df5"
+        android:text="MiddleGallery"/>
+    <TextView
+        android:id="@+id/tv_tunewheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_middlegallery"
+        android:layout_alignTop="@id/tv_middlegallery"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:background="#359df5"
+        android:text="刻度尺"/>
     <LinearLayout
         android:id="@+id/ll_fragment"
         android:layout_width="match_parent"

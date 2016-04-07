@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 置顶广告 -->
+	<item name="id_adview_101" type="id" />
+	<item name="id_adview_102" type="id" />
+	<item name="id_adview_103" type="id" />
+</resources>

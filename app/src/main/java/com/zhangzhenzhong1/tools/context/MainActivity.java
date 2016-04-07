@@ -13,9 +13,11 @@ import android.widget.TextView;
 
 import com.zhangzhenzhong1.tools.R;
 import com.zhangzhenzhong1.tools.fragment.AutoScaleTextFragment;
+import com.zhangzhenzhong1.tools.fragment.GalleryFragment;
+import com.zhangzhenzhong1.tools.fragment.TuneWheelFragment;
 
 
-public class MainActivity extends AppCompatActivity implements AutoScaleTextFragment.OnFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity implements OnFragmentInteractionListener{
 
     private Context mContext;
     private LinearLayout container;
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity implements AutoScaleTextFrag
         TextView mTvProgressbar=(TextView)findViewById(R.id.tv_progressbar);
         TextView mTvWordwrapview=(TextView)findViewById(R.id.tv_wordwrapview);
         TextView mTvAutoscale=(TextView)findViewById(R.id.tv_autoscale);
+        TextView mTvmiddlegallery=(TextView)findViewById(R.id.tv_middlegallery);
+        TextView mTvTunewheel=(TextView)findViewById(R.id.tv_tunewheel);
         container=(LinearLayout)findViewById(R.id.ll_fragment);
         mTvProgressbar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,10 +56,32 @@ public class MainActivity extends AppCompatActivity implements AutoScaleTextFrag
             @Override
             public void onClick(View view) {
                 container.setVisibility(View.VISIBLE);
-                Fragment AutoScaleFragment=new AutoScaleTextFragment();
+                Fragment autoScaleFragment=new AutoScaleTextFragment();
                 FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
                 transaction.addToBackStack("AutoScale");
-                transaction.add(R.id.ll_fragment,AutoScaleFragment);
+                transaction.add(R.id.ll_fragment,autoScaleFragment);
+                transaction.commitAllowingStateLoss();
+            }
+        });
+        mTvmiddlegallery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                container.setVisibility(View.VISIBLE);
+                Fragment galleryFragment=new GalleryFragment();
+                FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
+                transaction.addToBackStack("Gallery");
+                transaction.add(R.id.ll_fragment,galleryFragment);
+                transaction.commitAllowingStateLoss();
+            }
+        });
+        mTvTunewheel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                container.setVisibility(View.VISIBLE);
+                Fragment mFragment=new TuneWheelFragment();
+                FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
+                transaction.addToBackStack("tunewheel");
+                transaction.add(R.id.ll_fragment,mFragment);
                 transaction.commitAllowingStateLoss();
             }
         });

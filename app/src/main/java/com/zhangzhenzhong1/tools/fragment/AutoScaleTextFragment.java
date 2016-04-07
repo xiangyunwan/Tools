@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.zhangzhenzhong1.tools.R;
+import com.zhangzhenzhong1.tools.context.OnFragmentInteractionListener;
 import com.zhangzhenzhong1.tools.widget.AutoScaleTextView;
 
 /**
@@ -16,7 +17,6 @@ import com.zhangzhenzhong1.tools.widget.AutoScaleTextView;
  * 根据行宽和字体多少自动放大缩小文本框
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link AutoScaleTextFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
  * Use the {@link AutoScaleTextFragment#newInstance} factory method to
  * create an instance of this fragment.
@@ -123,8 +123,8 @@ public class AutoScaleTextFragment extends Fragment {
      * "http://developer.android.com/training/basics/fragments/communicating.html"
      * >Communicating with Other Fragments</a> for more information.
      */
-    public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
-    }
+//    public interface OnFragmentInteractionListener {
+//        // TODO: Update argument type and name
+//        void onFragmentInteraction(Uri uri);
+//    }
 }
