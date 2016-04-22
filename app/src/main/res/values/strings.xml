@@ -6,4 +6,6 @@
     <!-- gifview -->
     <string name="play">Play</string>
     <string name="pause">Pause</string>
+
+    <string name="clearCache">清理缓存</string>
 </resources>
